@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/*-----NAV BAR----------------------------*/
+
+header {
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.cont{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.mid,.end{
+    font-family: 'Ruda', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+}
+
+.mid a, .end a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+
+.end a,.fa-globe{
+    padding: 10px;
+}
+
+.profile{
+    border: .5px solid white;
+    background-color: white;
+    border-radius: 50px;
+    width: 80px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+/*-----NAV BAR ENDS------------------------*/
+
+/*----------------SEARCH BAR ------------------------*/
+
+.search{
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 60px;
+}
+
+.search li{
+    list-style-type: none;
+}
+
+.des{
+    color: rgb(162, 159, 159);
+}
+
+.ser{
+    background-color: rgb(250, 5, 83);
+    border: 2px solid rgb(250, 5, 83);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+
+.vr{
+    font-size: 40px;
+    color: rgb(162, 159, 159);
+}
+
+/*----------------SEARCH BAR ENDS------------------------*/
+
+/*-----HEADER IMAGE SECTION------------------------*/
+
+#img{
+    width: 80%;
+    margin: auto;
+    height: 120vh;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+/*-----HEADER IMAGE SECTION ENDS------------------------*/
+
+
+/*-----INSPIRATION SECTION------------------------------------*/
+
+.contain h2{
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50vh;
+}
+
+.card{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Ruda', sans-serif;
+    margin: 25px;
+    
+}
+
+.card img{
+    height: 60%;
+    background-color: #F24C4C;
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.card .card-text{
+    font-size: 16px;
+}
+
+/*-------------INSPIRATION SECTION ENDS---------------------------*/
+
+/*-------------------EXPERIENCE SECTION----------------------------*/
+
+#xpence .cards{
+    display: flex;
+    justify-content: space-around !important;
+}
+
+#xpence .imagee{
+    border: .5px solid ;
+    border-radius: 5px;
+}
+
+.left{
+    width: 50%;
+    margin-bottom: 50px;
+}
+.right{
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+
+.left-item{
+    width: 100%;
+}
+
+.right-item{
+    width: 100;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+/*------------------EXPERIENCE SECTION ENDS-----------------------------*/
+
